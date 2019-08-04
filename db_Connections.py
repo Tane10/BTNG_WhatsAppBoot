@@ -33,6 +33,7 @@ def addloans(loandetail):
     for i in loan_application:
         split_deatil = i.split(":")
         del split_deatil[0]
+        print
 
 
 addloans(TESTLOAN)
